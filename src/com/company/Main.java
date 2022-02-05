@@ -14,16 +14,20 @@ public class Main {
             объекттин полелерине конструктор аркылуу маани бериниз
             ошол объекттин полелерин консольго чыгарыныз.
          */
-        int[] masiv1 = {100,200,300};
-        int[] masiv2 = {-5,-10,-20};
 
-        Class klass1 = new Class(1,"salam",masiv1);
+        Class klass1 = new Class();
+
+        int[] masiv2 = {100,200,300};
+        int[] masiv3 = {-5,-10,-20};
+
+        Class klass2 = new Class(1,"salam",masiv2);
         klass1.getClassInfo();
 
         System.out.println();
 
-        Class klass2 = new Class(2,"kanday",masiv2);
+        Class klass3 = new Class(2,"kanday",masiv3);
         klass2.getClassInfo();
+
 
 
 
