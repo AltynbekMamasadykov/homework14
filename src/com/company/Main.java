@@ -21,12 +21,12 @@ public class Main {
         int[] masiv3 = {-5,-10,-20};
 
         Class klass2 = new Class(1,"salam",masiv2);
-        klass1.getClassInfo();
+        klass2.getClassInfo();
 
         System.out.println();
 
         Class klass3 = new Class(2,"kanday",masiv3);
-        klass2.getClassInfo();
+        klass3.getClassInfo();
 
 
 
